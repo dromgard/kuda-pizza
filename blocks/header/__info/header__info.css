@@ -1,0 +1,7 @@
+.header__info {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}

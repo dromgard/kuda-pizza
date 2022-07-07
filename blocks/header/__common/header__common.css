@@ -1,0 +1,10 @@
+.header__common {
+    max-width: 1290px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    column-gap: 40px;
+}

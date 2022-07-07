@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Куда пицца</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__common">
+      <div class="header__info">
+        <div class="header__location">
+          <img class="header__city-location" src="images/city-location.svg" alt="Локация">
+          <button class="header__text button button__select-city" type="button"
+            aria-label="Выбрать регион">Москва</button>
+        </div>
+        <p class="header__text">Проверить адрес</p>
+        <p class="header__text">Среднее время доставки*: <span class="header__delivery-time">00:24:19</span></p>
+      </div>
+      <div class="header__info">
+        <p class="header__text">Время работы: с 11:00 до 23:00</p>
+        <div class="header__account">
+          <img src="images/account-image.svg" alt="Аккаунт" class="header__account-image">
+          <button class="header__text button button__login" type="button" aria-label="Войти в аккаунт">Войти в
+            аккаунт</button>
+        </div>
+      </div>
+    </div>
+    <div class="header__line"></div>
+    <div class="header__common header__common_main">
+      <div class="logo"></div>
+      <button class="button button__shopping-bag" type="button" aria-label="Корзина">0 ₽</button>
+    </div>
+    <div class="header__line"></div>
+  </header>
+
+  <main class="content">
+    <!-- Блок Категории -->
+    <section class="categories">
+      <button class="button button__category" type="button" aria-label="Акции">
+        <img src="images/category-fire.svg" alt="Акции" class="category__image">
+        <span class="category__text">Акции</span>
+      </button>
+      <button class="button button__category" type="button" aria-label="Пицца">
+        <img src="images/category-pizza.svg" alt="Пицца" class="category__image">
+        <span class="category__text">Пицца</span>
+      </button>
+      <button class="button button__category" type="button" aria-label="Суши">
+        <img src="images/category-sushi.svg" alt="Суши" class="category__image">
+        <span class="category__text">Суши</span>
+      </button>
+      <button class="button button__category" type="button" aria-label="Напитки">
+        <img src="images/category-drink.svg" alt="Напитки" class="category__image">
+        <span class="category__text">Напитки</span>
+      </button>
+      <button class="button button__category" type="button" aria-label="Закуски">
+        <img src="images/category-snacks.svg" alt="Закуски" class="category__image">
+        <span class="category__text">Закуски</span>
+      </button>
+      <button class="button button__category" type="button" aria-label="Комбо">
+        <img src="images/category-combo.svg" alt="Комбо" class="category__image">
+        <span class="category__text">Комбо</span>
+      </button>
+      <button class="button button__category" type="button" aria-label="Десерты">
+        <img src="images/category-dessert.svg" alt="Десерты" class="category__image">
+        <span class="category__text">Десерты</span>
+      </button>
+      <button class="button button__category" type="button" aria-label="Соусы">
+        <img src="images/category-sauce.svg" alt="Соусы" class="category__image">
+        <span class="category__text">Соусы</span>
+      </button>
+    </section>
+
+    <!-- Блок Специальные предложения -->
+    <section class="special">
+      <button class="button button__special">
+        <img src="images/special-3-pizza.png" alt="3 средние пиццы от 999 рублей" class="special__image">
+        <span class="special__text">3 средние пиццы от 999 рублей</span>
+      </button>
+      <button class="button button__special">
+        <img src="images/special-delivery.png" alt="Кэшбек 10% на самовывоз (доставка)" class="special__image">
+        <span class="special__text">Кэшбек 10% на самовывоз (доставка)</span>
+      </button>
+      <button class="button button__special">
+        <img src="images/special-3-pizza.png" alt="3 средние пиццы от 999 рублей" class="special__image">
+        <span class="special__text">3 средние пиццы от 999 рублей</span>
+      </button>
+      <button class="button button__special">
+        <img src="images/special-delivery.png" alt="Кэшбек 10% на самовывоз (доставка)" class="special__image">
+        <span class="special__text">Кэшбек 10% на самовывоз (доставка)</span>
+      </button>
+    </section>
+
+  </main>
+  <script src="script/index.js"></script>
+</body>
+
+</html>

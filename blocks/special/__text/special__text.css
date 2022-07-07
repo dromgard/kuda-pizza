@@ -1,0 +1,12 @@
+.special__text {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFF;
+}

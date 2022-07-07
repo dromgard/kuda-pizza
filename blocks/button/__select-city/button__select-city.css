@@ -1,0 +1,5 @@
+.button__select-city {
+    width: 72px;
+    background: url(../../../images/city-select.svg) no-repeat right center;
+    text-align: left;
+}

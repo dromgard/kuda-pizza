@@ -1,0 +1,53 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/header/__common/header__common.css);
+
+@import url(../blocks/header/__info/header__info.css);
+
+@import url(../blocks/header/__location/header__location.css);
+
+@import url(../blocks/header/__city-location/header__city-location.css);
+
+@import url(../blocks/header/__text/header__text.css);
+
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/button/__select-city/button__select-city.css);
+
+@import url(../blocks/header/__line/header__line.css);
+
+@import url(../blocks/header/__delivery-time/header__delivery-time.css);
+
+@import url(../blocks/header/__account/header__account.css);
+
+@import url(../blocks/header/__account-image/header__account-image.css);
+
+@import url(../blocks/button/__login/button__login.css);
+
+@import url(../blocks/header/__common/_main/header__common_main.css);
+
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/button/__shopping-bag/button__shopping-bag.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/categories/categories.css);
+
+@import url(../blocks/button/__category/button__category.css);
+
+@import url(../blocks/category/__image/category__image.css);
+
+@import url(../blocks/category/__text/category__text.css);
+
+@import url(../blocks/button/__special/button__special.css);
+
+@import url(../blocks/special/special.css);
+
+@import url(../blocks/special/__image/special__image.css);
+
+@import url(../blocks/special/__text/special__text.css);
