@@ -1,0 +1,16 @@
+.catalog__filter {
+  width: 126px;
+  height: 40px;
+  padding: 9px 16px 9px 40px;
+  border: 1px solid #F0F0F0;
+  border-radius: 6px;
+
+  background: url(../../../images/filter.svg) no-repeat 16px center;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #191919;
+}

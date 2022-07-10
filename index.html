@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" product="IE=edge">
+  <meta name="viewport" product="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
   <title>Куда пицца</title>
 </head>
@@ -77,19 +77,19 @@
 
     <!-- Блок Специальные предложения -->
     <section class="special">
-      <button class="button button__special">
+      <button class="button button__special" aria-label="Выбрать спецпредложение">
         <img src="images/special-3-pizza.png" alt="3 средние пиццы от 999 рублей" class="special__image">
         <span class="special__text">3 средние пиццы от 999 рублей</span>
       </button>
-      <button class="button button__special">
+      <button class="button button__special" aria-label="Выбрать спецпредложение">
         <img src="images/special-delivery.png" alt="Кэшбек 10% на самовывоз (доставка)" class="special__image">
         <span class="special__text">Кэшбек 10% на самовывоз (доставка)</span>
       </button>
-      <button class="button button__special">
+      <button class="button button__special" aria-label="Выбрать спецпредложение">
         <img src="images/special-3-pizza.png" alt="3 средние пиццы от 999 рублей" class="special__image">
         <span class="special__text">3 средние пиццы от 999 рублей</span>
       </button>
-      <button class="button button__special">
+      <button class="button button__special" aria-label="Выбрать спецпредложение">
         <img src="images/special-delivery.png" alt="Кэшбек 10% на самовывоз (доставка)" class="special__image">
         <span class="special__text">Кэшбек 10% на самовывоз (доставка)</span>
       </button>
@@ -100,8 +100,114 @@
       <form name="adress-check__form" class="adress-check__form">
         <p class="adress-check__title">Проверить адрес доставки</p>
         <input name="delivery-adress" type="text" id="delivery-adress-input" class="adress-check__input">
-        <button name="submit" type="submit" aria-label="Проверить адрес" class="button adress-check__submit">Проверить</button>
+        <button name="submit" type="submit" aria-label="Проверить адрес"
+          class="button adress-check__submit">Проверить</button>
       </form>
+    </section>
+
+    <!-- Блок Пицца -->
+    <section class="catalog">
+      <div class="catalog__header">
+        <h2 class="catalog__titile">Пицца</h2>
+        <button class="button catalog__filter" aria-label="Выбрать фильтр">Фильтры</button>
+      </div>
+      <div class="products">
+        <article class="product">
+          <div class="product__info">
+            <img src="images/pizza-1.png" alt="Чикен Сладкий Чили" class="product__image">
+            <h3 class="product__title">Чикен Сладкий Чили</h3>
+            <p class="product__description">Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соус, Соус Сладкий
+              Чили</p>
+            <p class="product__special">NEW</p>
+          </div>
+          <div class="product__actions">
+            <button class="button product__add-button">Выбрать</button>
+            <p class="product__prise">от 399 ₽</p>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product__info">
+            <img src="images/pizza-2.png" alt="EASY PEASY огуречный расколбас" class="product__image">
+            <h3 class="product__title">EASY PEASY огуречный расколбас</h3>
+            <p class="product__description">Огурцы маринованные, Сыр Моцарелла, Соус Пикант, Лук жареный, Сосиски</p>
+            <p class="product__special">ХИТ</p>
+          </div>
+          <div class="product__actions">
+            <button class="button product__add-button">Выбрать</button>
+            <p class="product__prise">от 549 ₽</p>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product__info">
+            <img src="images/pizza-3.png" alt="EASY PEASY чикен а-ля хрен" class="product__image">
+            <h3 class="product__title">EASY PEASY чикен а-ля хрен</h3>
+            <p class="product__description">Бекон, Курица, Лук, Огурцы маринованные, Свежие томаты, Сыр Моцарелла, Сыр
+              Чеддер (ломтиками), Соус Пикант</p>
+          </div>
+          <div class="product__actions">
+            <button class="button product__add-button">Выбрать</button>
+            <p class="product__prise">от 249 ₽</p>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product__info">
+            <img src="images/pizza-4.png" alt="4 сезона" class="product__image">
+            <h3 class="product__title">4 сезона</h3>
+            <p class="product__description">Бекон, Ветчина, Грибы, Курица, Лук, Маслины, Огурцы маринованные, Охотничьи
+              колбаски, Пепперони, Свежие томаты, Соус BBQ, Сыр Моцарелла, Сыр Фета, Томатный соус </p>
+          </div>
+          <div class="product__actions">
+            <button class="button product__add-button">Выбрать</button>
+            <p class="product__prise">от 630 ₽</p>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product__info">
+            <img src="images/pizza-4.png" alt="4 сезона" class="product__image">
+            <h3 class="product__title">4 сезона</h3>
+            <p class="product__description">Бекон, Ветчина, Грибы, Курица, Лук, Маслины, Огурцы маринованные, Охотничьи
+              колбаски, Пепперони, Свежие томаты, Соус BBQ, Сыр Моцарелла, Сыр Фета, Томатный соус </p>
+          </div>
+          <div class="product__actions">
+            <button class="button product__add-button">Выбрать</button>
+            <p class="product__prise">от 630 ₽</p>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product__info">
+            <img src="images/pizza-3.png" alt=">EASY PEASY чикен а-ля хрен" class="product__image">
+            <h3 class="product__title">EASY PEASY чикен а-ля хрен</h3>
+            <p class="product__description">Бекон, Курица, Лук, Огурцы маринованные, Свежие томаты, Сыр Моцарелла, Сыр
+              Чеддер (ломтиками), Соус Пикант</p>
+          </div>
+          <div class="product__actions">
+            <button class="button product__add-button">Выбрать</button>
+            <p class="product__prise">от 249 ₽</p>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product__info">
+            <img src="images/pizza-2.png" alt="Чикен Сладкий Чили" class="product__image">
+            <h3 class="product__title">Чикен Сладкий Чили</h3>
+            <p class="product__description">Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соу...</p>
+          </div>
+          <div class="product__actions">
+            <button class="button product__add-button">Выбрать</button>
+            <p class="product__prise">от 399 ₽</p>
+          </div>
+        </article>
+        <article class="product">
+          <div class="product__info">
+            <img src="images/pizza-1.png" alt="EASY PEASY огуречный расколбас" class="product__image">
+            <h3 class="product__title">EASY PEASY огуречный расколбас</h3>
+            <p class="product__description">Огурцы маринованные, Сыр Моцарелла, Соус Пикант, Лук жареный, Сосиски</p>
+          </div>
+          <div class="product__actions">
+            <button class="button product__add-button">Выбрать</button>
+            <p class="product__prise">от 549 ₽</p>
+          </div>
+        </article>
+      </div>
     </section>
 
   </main>

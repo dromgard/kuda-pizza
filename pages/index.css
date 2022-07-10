@@ -63,3 +63,31 @@
 @import url(../blocks/adress-check/__input/adress-check__input.css);
 
 @import url(../blocks/adress-check/__submit/adress-check__submit.css);
+
+@import url(../blocks/catalog/catalog.css);
+
+@import url(../blocks/catalog/__header/catalog__header.css);
+
+@import url(../blocks/catalog/__titile/catalog__titile.css);
+
+@import url(../blocks/catalog/__filter/catalog__filter.css);
+
+@import url(../blocks/products/products.css);
+
+@import url(../blocks/product/product.css);
+
+@import url(../blocks/product/__info/product__info.css);
+
+@import url(../blocks/product/__image/product__image.css);
+
+@import url(../blocks/product/__title/product__title.css);
+
+@import url(../blocks/product/__description/product__description.css);
+
+@import url(../blocks/product/__actions/product__actions.css);
+
+@import url(../blocks/product/__add-button/product__add-button.css);
+
+@import url(../blocks/product/__prise/product__prise.css);
+
+@import url(../blocks/product/__special/product__special.css);

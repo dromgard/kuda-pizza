@@ -1,0 +1,5 @@
+.product__info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

@@ -1,0 +1,9 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  background: #FFF;
+  border: 1px solid #F0F0F0;
+  border-radius: 12px;
+}
