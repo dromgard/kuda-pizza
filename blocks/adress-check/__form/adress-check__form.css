@@ -1,0 +1,9 @@
+.adress-check__form {
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFF;
+  border: 1px solid #F0F0F0;
+  border-radius: 8px;
+}

@@ -53,3 +53,13 @@
 @import url(../blocks/special/__image/special__image.css);
 
 @import url(../blocks/special/__text/special__text.css);
+
+@import url(../blocks/adress-check/adress-check.css);
+
+@import url(../blocks/adress-check/__form/adress-check__form.css);
+
+@import url(../blocks/adress-check/__title/adress-check__title.css);
+
+@import url(../blocks/adress-check/__input/adress-check__input.css);
+
+@import url(../blocks/adress-check/__submit/adress-check__submit.css);
