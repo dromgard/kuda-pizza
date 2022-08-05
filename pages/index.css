@@ -91,3 +91,37 @@
 @import url(../blocks/product/__prise/product__prise.css);
 
 @import url(../blocks/product/__special/product__special.css);
+
+@import url(../blocks/delivery-info/delivery-info.css);
+
+@import url(../blocks/delivery-info/__title/delivery-info__title.css);
+
+@import url(../blocks/delivery-info/__text-block/delivery-info__text-block.css);
+
+@import url(../blocks/delivery-info/__text/delivery-info__text.css);
+
+@import url(../blocks/delivery-info/__subtitle/delivery-info__subtitle.css);
+
+@import url(../blocks/delivery-info/__full-text-button/delivery-info__full-text-button.css);
+
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/footer/__container/footer__container.css);
+
+@import url(../blocks/footer/__column/footer__column.css);
+
+@import url(../blocks/footer/__column/_info/footer__column_info.css);
+
+@import url(../blocks/logo/__footer-image/logo__footer-image.css);
+
+@import url(../blocks/footer/__title/footer__title.css);
+
+@import url(../blocks/footer/__text/footer__text.css);
+
+@import url(../blocks/footer/__block-contact/footer__block-contact.css);
+
+@import url(../blocks/footer/__icon/footer__icon.css);
+
+@import url(../blocks/footer/__social/footer__social.css);
+
+@import url(../blocks/link/link.css);

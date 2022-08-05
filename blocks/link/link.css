@@ -1,12 +1,10 @@
-.button {
-  border: 0;
-  background-color: unset;
-  padding: 0;
+.link {
+  text-decoration: none;
   opacity: 1;
   transition: opacity .5s ease;
   cursor: pointer;
 }
 
-.button:hover {
+.link:hover {
   opacity: .5;
 }
