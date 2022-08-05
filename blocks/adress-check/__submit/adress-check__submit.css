@@ -1,5 +1,5 @@
 .adress-check__submit {
-  width: 150px;
+  min-width: 150px;
   height: 48px;
   background: #FF7010;
   border-radius: 6px;

@@ -15,21 +15,21 @@
   <header class="header">
     <div class="header__common">
       <div class="header__info">
-        <div class="header__location">
+        <button class="header__text button button__select-city button__header" type="button"
+          aria-label="Выбрать регион">
           <img class="header__city-location" src="images/city-location.svg" alt="Локация">
-          <button class="header__text button button__select-city" type="button"
-            aria-label="Выбрать регион">Москва</button>
-        </div>
-        <a href="#" class="header__text link">Проверить адрес</a>
+          Москва
+          <img class="header__city-select" src="images/city-select.svg" alt="Выбрать регион">
+        </button>
+        <a href="#adress-check" class="header__text link">Проверить адрес</a>
         <p class="header__text">Среднее время доставки: <span class="header__delivery-time">25 минут</span></p>
       </div>
       <div class="header__info">
         <p class="header__text">Время работы: с 11:00 до 23:00</p>
-        <div class="header__account">
+        <button class="header__text button button__header" type="button" aria-label="Войти в аккаунт">
           <img src="images/account-image.svg" alt="Аккаунт" class="header__account-image">
-          <button class="header__text button button__login" type="button" aria-label="Войти в аккаунт">Войти в
-            аккаунт</button>
-        </div>
+          Войти в аккаунт
+        </button>
       </div>
     </div>
     <div class="header__line"></div>
@@ -78,7 +78,7 @@
     </section>
 
     <!-- Блок Специальные предложения -->
-    <section class="special">
+    <section class="special" id="special">
       <button class="button button__special" aria-label="Выбрать спецпредложение">
         <img src="images/special-3-pizza.png" alt="3 средние пиццы от 999 рублей" class="special__image">
         <span class="special__text">3 средние пиццы от 999 рублей</span>
@@ -98,10 +98,10 @@
     </section>
 
     <!-- Блок Проверка адреса -->
-    <section class="adress-check">
+    <section class="adress-check" id="adress-check">
       <form name="adress-check__form" class="adress-check__form">
         <p class="adress-check__title">Проверить адрес доставки</p>
-        <input name="delivery-adress" type="text" id="delivery-adress-input" class="adress-check__input">
+        <input name="delivery-adress" placeholder="Адрес" type="text" id="delivery-adress-input" class="adress-check__input">
         <button name="submit" type="submit" aria-label="Проверить адрес"
           class="button adress-check__submit">Проверить</button>
       </form>
